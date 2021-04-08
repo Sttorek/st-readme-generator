@@ -19,7 +19,7 @@ inquirer
     {
       type: 'input',
       message: 'What is your project name?',
-      name: 'project',
+      name: 'title',
     },
     {
         type: 'input',
@@ -54,7 +54,7 @@ inquirer
   ])
   .then((response) => {
       const filename = "README.md"
-      fs.writeFile(filename, JSON.stringify(response)
+      fs.writeFile(filename, markdown(response)
       , function(err) {
         console.log(err);
       })
