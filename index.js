@@ -34,7 +34,7 @@ inquirer
     {
         type: 'input',
         message: 'what what command should be run to install dependencies?',
-        name: 'install',
+        name: 'installation',
     },
     {
         type: 'input',
@@ -44,24 +44,22 @@ inquirer
     {
         type: 'input',
         message: 'what does the user need to know about using the repo?',
-        name: 'know',
+        name: 'usage',
     },
     {
         type: 'input',
         message: 'what does the user need to know about contributing to the repo?',
-        name: 'contribute',
+        name: 'contributing',
     },
   ])
   .then((response) => {
-      const filename = "README.md"
+      const filename = "generatedREADME.md"
       fs.writeFile(filename, markdown(response)
       , function(err) {
         console.log(err);
       })
     });
-    // !!!!!!! json.stringify not working!!!!!!!!!!!!!!
-    // do i need the other questions in the screenshot?????????????????
-    // getting a null
+    
 
 
 // TODO: Create a function to write README file
