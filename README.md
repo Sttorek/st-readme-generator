@@ -31,6 +31,7 @@ To test run npm test
 
 ## Usage
 In order use ths app, you must run Please run npm i to install dependencies. in your terminal.
+Refer to this video - https://drive.google.com/file/d/1sWWHItBwzYhPi7f21wzwBejKVGmPcwvC/view
 
 
 ## Questions
