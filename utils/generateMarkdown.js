@@ -1,9 +1,5 @@
-
-
-// TODO: create a function that returns a license badge based on which license is passed in
-// if there is no license, return an empty string
 function renderLicenseBadge(license) {
-        return `![license badge](https://img.shields.io/badge/license-${license}-blue)`
+    return `![license badge](https://img.shields.io/badge/license-${license}-blue)`
 
 }
 
@@ -20,49 +16,46 @@ function renderLicenseSection(license) {}
 
 // TODO: create a function to generate markdown for README
 function generateMarkdown(data) {
-    console.log("data", data)
-    return `# ${data.title}
-    
-    
-# Description
+console.log("data", data)
+return `# ${data.title}
+
+## License
+${renderLicenseBadge(data.license)}
+
+
+## Description
 ${data.description}
 
+## Table of Contents
+* [License](#License)
+* [Installation](#Installation)
+* [Tests](#Tests)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
 
-# Table of Contents
-License
-Installation
-Tests
-Usage
-Contributing
-    
-    
-# License
-${renderLicenseBadge(data.license)}
-   
 
-# Contributing
+
+## Contributing
 ${data.contributing}
 
 
-# Installation
+## Installation
 To install dependencies, you must run ${data.installation} in your terminal.
-    
-# Tests
+
+## Tests
 To test run ${data.tests}
 
-# Usage
+
+
+## Usage
 In order use ths app, you must run ${data.usage} in your terminal.
 
 
-# ${data.username}
-# ${data.email}
-    
-    
-    
+## Questions
+[Github Profile](https://github.com/${data.username})
 
-
-
-
+${data.email}
 
 
 

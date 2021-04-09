@@ -1,45 +1,42 @@
-# g4g54g45
-    
-    
-# Description
-f43rg3gt4g4g
+# readme-generator
 
-
-# Table of Contents
-License
-Installation
-Tests
-Usage
-Contributing
-    
-    
-# License
+## License
 ![license badge](https://img.shields.io/badge/license-mit-blue)
-   
-
-# Contributing
-b4bt4b4tg4tg
 
 
-# Installation
-To install dependencies, you must run vrtbtbtbt5b in your terminal.
-    
-# Tests
-To test run b4tb4tbvt4bt4
+## Description
+This project was made with the inquirer npm please run node index.js to use.
 
-# Usage
-In order use ths app, you must run b4tbt4t4bt4b in your terminal.
-
-
-# gt5rgbtg
-# tg4g4tg4g
-    
-    
-    
+## Table of Contents
+* [License](#License)
+* [Installation](#Installation)
+* [Tests](#Tests)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
 
 
 
+## Contributing
+please leave nice comments
 
+
+## Installation
+To install dependencies, you must run npm i in your terminal.
+
+## Tests
+To test run npm test
+
+
+
+## Usage
+In order use ths app, you must run please run npm i to install dependencies in your terminal.
+
+
+## Questions
+[Github Profile](https://github.com/sttorek)
+
+seth.torek@gmail.com
 
 
 
