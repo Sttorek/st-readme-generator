@@ -21,41 +21,41 @@ function renderLicenseSection(license) {}
 // TODO: create a function to generate markdown for README
 function generateMarkdown(data) {
     console.log("data", data)
-    return `#${data.title}
-    https://github.com/${data.username}/${data.title}
-    
-    #Description
-    ${data.description}
-
-
-    #Table of Contents
-    License
-    Installation
-    Tests
-    Usage
-    Contributing
+    return `# ${data.title}
     
     
-    #License
-    ${renderLicenseBadge(data.license)}
-    // license not working ------------------------------
-
-    #Contributing
-    ${data.contributing}
+# Description
+${data.description}
 
 
-    #Installation
-    To install dependencies, you must run ${data.installation} in your terminal.
+# Table of Contents
+License
+Installation
+Tests
+Usage
+Contributing
     
-    #Tests
-    To test run ${data.tests}
+    
+# License
+${renderLicenseBadge(data.license)}
+   
 
-    #Usage
-    In order use ths app, you must run ${data.usage} in your terminal.
+# Contributing
+${data.contributing}
 
 
-    #${data.username}
-    #${data.email}
+# Installation
+To install dependencies, you must run ${data.installation} in your terminal.
+    
+# Tests
+To test run ${data.tests}
+
+# Usage
+In order use ths app, you must run ${data.usage} in your terminal.
+
+
+# ${data.username}
+# ${data.email}
     
     
     
